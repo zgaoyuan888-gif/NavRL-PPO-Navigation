@@ -1,0 +1,630 @@
+{
+  "summary": {
+    "static_only": {
+      "episodes": 30,
+      "success_rate": 100.0,
+      "collision_rate": 0.0,
+      "timeout_rate": 0.0,
+      "avg_completion_time": 8.83,
+      "avg_path_length": 16.53
+    },
+    "dynamic_only": {
+      "episodes": 30,
+      "total_robots": 90,
+      "success_rate": 100.0,
+      "collision_rate": 0.0,
+      "timeout_rate": 0.0,
+      "avg_completion_time": 19.1
+    },
+    "mixed": {
+      "episodes": 30,
+      "total_robots": 150,
+      "success_rate": 100.0,
+      "collision_rate": 0.0,
+      "timeout_rate": 0.0,
+      "avg_completion_time": 19.1
+    }
+  },
+  "static_episodes": [
+    {
+      "seed": 0,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 93,
+      "completion_time": 9.3,
+      "path_length": 17.482,
+      "min_clearance": 0.26,
+      "start": [
+        3.869,
+        11.18
+      ],
+      "goal": [
+        -5.399,
+        -3.496
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 1,
+      "success": true,
+      "collision": false,
+      "near_miss": false,
+      "collision_step": null,
+      "steps": 31,
+      "completion_time": 3.1,
+      "path_length": 5.35,
+      "min_clearance": 0.819,
+      "start": [
+        0.831,
+        9.065
+      ],
+      "goal": [
+        -4.7,
+        8.929
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 2,
+      "success": true,
+      "collision": false,
+      "near_miss": false,
+      "collision_step": null,
+      "steps": 25,
+      "completion_time": 2.5,
+      "path_length": 4.253,
+      "min_clearance": 0.638,
+      "start": [
+        9.995,
+        -8.826
+      ],
+      "goal": [
+        8.77,
+        -4.53
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 3,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 163,
+      "completion_time": 16.3,
+      "path_length": 31.07,
+      "min_clearance": 0.288,
+      "start": [
+        5.385,
+        8.856
+      ],
+      "goal": [
+        -14.978,
+        -14.091
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 4,
+      "success": true,
+      "collision": false,
+      "near_miss": false,
+      "collision_step": null,
+      "steps": 106,
+      "completion_time": 10.6,
+      "path_length": 19.736,
+      "min_clearance": 0.362,
+      "start": [
+        -8.136,
+        -2.219
+      ],
+      "goal": [
+        11.661,
+        -3.476
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 5,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 88,
+      "completion_time": 8.8,
+      "path_length": 16.559,
+      "min_clearance": 0.265,
+      "start": [
+        -9.28,
+        4.026
+      ],
+      "goal": [
+        6.226,
+        9.171
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 6,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 82,
+      "completion_time": 8.2,
+      "path_length": 15.525,
+      "min_clearance": 0.195,
+      "start": [
+        8.569,
+        6.173
+      ],
+      "goal": [
+        -5.412,
+        12.273
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 7,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 45,
+      "completion_time": 4.5,
+      "path_length": 8.056,
+      "min_clearance": 0.277,
+      "start": [
+        9.818,
+        2.421
+      ],
+      "goal": [
+        5.547,
+        9.507
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 8,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 130,
+      "completion_time": 13.0,
+      "path_length": 24.57,
+      "min_clearance": 0.279,
+      "start": [
+        5.921,
+        -11.291
+      ],
+      "goal": [
+        12.449,
+        12.092
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 9,
+      "success": true,
+      "collision": false,
+      "near_miss": false,
+      "collision_step": null,
+      "steps": 66,
+      "completion_time": 6.6,
+      "path_length": 12.058,
+      "min_clearance": 0.431,
+      "start": [
+        1.47,
+        -6.167
+      ],
+      "goal": [
+        12.639,
+        -11.058
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 10,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 99,
+      "completion_time": 9.9,
+      "path_length": 18.91,
+      "min_clearance": 0.147,
+      "start": [
+        -6.771,
+        6.273
+      ],
+      "goal": [
+        9.297,
+        -2.896
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 11,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 47,
+      "completion_time": 4.7,
+      "path_length": 8.452,
+      "min_clearance": 0.21,
+      "start": [
+        -12.823,
+        -3.71
+      ],
+      "goal": [
+        -5.927,
+        -8.727
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 12,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 109,
+      "completion_time": 10.9,
+      "path_length": 20.527,
+      "min_clearance": 0.245,
+      "start": [
+        -8.539,
+        8.649
+      ],
+      "goal": [
+        5.584,
+        -6.009
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 13,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 116,
+      "completion_time": 11.6,
+      "path_length": 22.231,
+      "min_clearance": 0.153,
+      "start": [
+        6.913,
+        13.761
+      ],
+      "goal": [
+        -12.514,
+        4.231
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 14,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 150,
+      "completion_time": 15.0,
+      "path_length": 28.655,
+      "min_clearance": 0.158,
+      "start": [
+        -12.129,
+        5.91
+      ],
+      "goal": [
+        9.533,
+        -11.987
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 15,
+      "success": true,
+      "collision": false,
+      "near_miss": false,
+      "collision_step": null,
+      "steps": 86,
+      "completion_time": 8.6,
+      "path_length": 16.019,
+      "min_clearance": 0.301,
+      "start": [
+        -8.24,
+        0.27
+      ],
+      "goal": [
+        -2.407,
+        -14.399
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 16,
+      "success": true,
+      "collision": false,
+      "near_miss": false,
+      "collision_step": null,
+      "steps": 134,
+      "completion_time": 13.4,
+      "path_length": 25.207,
+      "min_clearance": 0.427,
+      "start": [
+        8.145,
+        -14.836
+      ],
+      "goal": [
+        -14.173,
+        -3.338
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 17,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 106,
+      "completion_time": 10.6,
+      "path_length": 20.119,
+      "min_clearance": 0.132,
+      "start": [
+        11.118,
+        5.821
+      ],
+      "goal": [
+        -2.101,
+        -8.833
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 18,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 51,
+      "completion_time": 5.1,
+      "path_length": 9.136,
+      "min_clearance": 0.242,
+      "start": [
+        -11.79,
+        1.26
+      ],
+      "goal": [
+        -3.916,
+        6.136
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 19,
+      "success": true,
+      "collision": false,
+      "near_miss": false,
+      "collision_step": null,
+      "steps": 54,
+      "completion_time": 5.4,
+      "path_length": 9.611,
+      "min_clearance": 0.571,
+      "start": [
+        -8.921,
+        0.911
+      ],
+      "goal": [
+        -8.97,
+        10.675
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 20,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 89,
+      "completion_time": 8.9,
+      "path_length": 16.707,
+      "min_clearance": 0.149,
+      "start": [
+        -3.589,
+        13.394
+      ],
+      "goal": [
+        -0.486,
+        -2.926
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 21,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 174,
+      "completion_time": 17.4,
+      "path_length": 33.177,
+      "min_clearance": 0.249,
+      "start": [
+        -12.371,
+        -9.513
+      ],
+      "goal": [
+        10.111,
+        14.365
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 22,
+      "success": true,
+      "collision": false,
+      "near_miss": false,
+      "collision_step": null,
+      "steps": 51,
+      "completion_time": 5.1,
+      "path_length": 9.105,
+      "min_clearance": 0.972,
+      "start": [
+        -12.458,
+        -3.376
+      ],
+      "goal": [
+        -12.03,
+        -12.721
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 23,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 63,
+      "completion_time": 6.3,
+      "path_length": 11.672,
+      "min_clearance": 0.201,
+      "start": [
+        8.178,
+        9.373
+      ],
+      "goal": [
+        -3.18,
+        11.725
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 24,
+      "success": true,
+      "collision": false,
+      "near_miss": false,
+      "collision_step": null,
+      "steps": 49,
+      "completion_time": 4.9,
+      "path_length": 8.867,
+      "min_clearance": 0.34,
+      "start": [
+        3.087,
+        7.778
+      ],
+      "goal": [
+        6.346,
+        -0.585
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 25,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 119,
+      "completion_time": 11.9,
+      "path_length": 22.608,
+      "min_clearance": 0.235,
+      "start": [
+        7.809,
+        10.984
+      ],
+      "goal": [
+        -11.808,
+        0.231
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 26,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 115,
+      "completion_time": 11.5,
+      "path_length": 21.772,
+      "min_clearance": 0.199,
+      "start": [
+        -5.672,
+        7.931
+      ],
+      "goal": [
+        0.181,
+        -12.698
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 27,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 48,
+      "completion_time": 4.8,
+      "path_length": 8.866,
+      "min_clearance": 0.214,
+      "start": [
+        14.814,
+        -14.286
+      ],
+      "goal": [
+        11.804,
+        -6.185
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 28,
+      "success": true,
+      "collision": false,
+      "near_miss": false,
+      "collision_step": null,
+      "steps": 32,
+      "completion_time": 3.2,
+      "path_length": 5.569,
+      "min_clearance": 0.837,
+      "start": [
+        -5.25,
+        -11.96
+      ],
+      "goal": [
+        -6.057,
+        -6.291
+      ],
+      "num_obstacles": 100
+    },
+    {
+      "seed": 29,
+      "success": true,
+      "collision": false,
+      "near_miss": true,
+      "collision_step": null,
+      "steps": 128,
+      "completion_time": 12.8,
+      "path_length": 24.117,
+      "min_clearance": 0.2,
+      "start": [
+        -9.659,
+        1.641
+      ],
+      "goal": [
+        12.437,
+        -7.784
+      ],
+      "num_obstacles": 100
+    }
+  ]
+}
